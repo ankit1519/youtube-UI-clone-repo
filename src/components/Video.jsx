@@ -8,7 +8,7 @@ function Video({thumbnail,channel,title,views,time}) {
         <img src={thumbnail} alt="" />
     </div>
     <div className="title">{title}</div>
-    <div className="chaneel">{channel}</div>
+    <div className="channel">{channel}</div>
     <div className="views">{views} views <span>.</span>{time}</div>
    </div>
    </>
